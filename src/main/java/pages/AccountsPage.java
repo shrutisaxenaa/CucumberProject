@@ -13,13 +13,14 @@ public class AccountsPage {
 		this.driver=driver;
 	}
 	
+	
 	@FindBy(how=How.ID,using="account")WebElement AccountTitle;
 	@FindBy(how=How.ID,using="description" )WebElement Description;
 	@FindBy(how=How.ID,using="balance")WebElement InitialBalance;
 	@FindBy(how=How.ID,using="account_number")WebElement AccountNumber;
 	@FindBy(how=How.ID,using="contact_person")WebElement ContactPerson;
 	@FindBy(how=How.ID,using="contact_phone")WebElement PhoneNum;
-	@FindBy(how=How.XPATH,using="/html/body/section/div/div[1]/div[3]/div[1]/div/div/div[2]/form/button")WebElement submitButton;
+	@FindBy(how=How.XPATH,using="//button[@type='submit' and @class='btn btn-primary']")WebElement submitButton;
 
 
 	public void insertAccountTitle(String accountTitle) {

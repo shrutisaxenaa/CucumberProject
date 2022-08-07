@@ -37,6 +37,6 @@ Then User clicks on SubmitButton
 
 Examples: 
 
-|accountTitle|	|description|	|initialBalance|	|accountNumber|	|contactPerson|	|phoneNumber|	|userName|						|password|
-|savings|					|AutoLoan|		|$500,000|				|564329|					|Mark|				|6543|				|demo@techfios.com|			|abc123|			
+|accountTitle|	|description|	|initialBalance|	|accountNumber|	|contactPerson|	|phoneNumber|		|userName|			|password|	
+|savings|					|AutoLoan|		|$500,000|				|564329|					|Mark|				|6543|			|demo@techfios.com|		|abc123|		
 
